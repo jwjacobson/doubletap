@@ -10,6 +10,7 @@ nav a{
     color: black;
     font-family: sans-serif;
     font-size: 16px;
+    white-space: nowrap;
 }
 
 #login-button{
@@ -22,6 +23,10 @@ nav a{
     padding: 2px 13px;
 }
 
+#login-button:hover{
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
 #signup-button{
     color: white;
     font-family: sans-serif;
@@ -30,6 +35,10 @@ nav a{
     border-radius: 7px;
     background-color: blue;
     padding: 2px 13px;
+}
+
+#signup-button:hover{
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
 
 #header-h1{
@@ -91,3 +100,9 @@ header img {
     font-size:3px;
     margin: 10px;
 }
+
+.short-hr {
+    width: 60%;
+    text-align: center;
+    margin: auto;
+  }
