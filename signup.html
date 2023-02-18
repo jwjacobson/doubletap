@@ -12,22 +12,34 @@
 <body>
     <div class="container">
         <div class="row">
-            <div class="col-4 border d-flex flex-column justify-content-center align-items-center" id="content">
-                <h1>Sign Up</h1>
-                <input type="text" name="" id="" class="form-control">
-                <input type="text" name="" id="" class="form-control">
-                <input type="text" name="" id="" class="form-control">
+            <div class="col-4 d-flex flex-column justify-content-center align-items-center" id="content">
+                <h1 class="display-2 mb-5">Sign Up</h1>
+                <div class="form-floating">
+                    <i class="icon fa-regular fa-user"></i>
+                    <input type="text" name="" id="user" placeholder="Username" class="form-control">
+                    <label for="user">Username</label>
+                </div>
+                <div class="form-floating">
+                    <i class="icon fa-regular fa-envelope"></i>
+                    <input type="text" name="" id="email" placeholder="Email" class="form-control">
+                    <label for="email">Email</label>
+                </div>
+                <div class="form-floating">
+                    <i class="icon fa-solid fa-lock"></i>
+                    <input type="text" name="" id="password" placeholder="Password" class="form-control">
+                    <label for="password">Password</label>
+                </div>
                 <button>Sign Up</button>
-                <h6>Or Sign Up With Social Platforms</h6>
-                <div class="">
-                    <i class="fa-brands fa-facebook"></i>
-                    <i class="fa-brands fa-twitter"></i>
-                    <i class="fa-brands fa-google"></i>
-                    <i class="fa-brands fa-linkedin-in"></i>
+                <p>Or Sign Up With Social Platforms</p>
+                <div class="w-75 d-flex justify-content-between mt-4">
+                    <i class="fa-brands fa-facebook fa-2xl"></i>
+                    <i class="fa-brands fa-twitter fa-2xl"></i>
+                    <i class="fa-brands fa-google fa-2xl"></i>
+                    <i class="fa-brands fa-linkedin-in fa-2xl"></i>
                 </div>
             </div>
 
-            <div class="col border">
+            <div class="col">
                 <img src="assets/sign_up/Group 10.png" alt="">
             </div>
         </div>
