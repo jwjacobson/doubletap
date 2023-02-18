@@ -92,9 +92,48 @@ header img {
     margin: 10px;
 }
 
-#how-it-works h3{
+.text h3{
     font-family: sans-serif;
     text-align: center;
     font-size: 25px;
     margin:0 25% 0 25%;
 }
+
+#collect-useful-info{
+
+}
+
+#collect-useful-info img{
+    border: 1px solid gray;
+    padding: 15%;
+    border-radius: 5% 0 0 5%;
+    height: 100%;
+    width: auto;
+}
+
+.collect-text{
+    font-family: sans-serif;
+    font-weight: bold;
+    background-color: blue;
+    color: white;
+    border: 1px solid gray;
+    border-radius: 0 5% 5% 0;
+    padding: 30% 10% 30% 10%;
+    margin-right: 5%;
+    height: 100%;
+}
+
+
+
+.paid img {
+    border:1px gray solid;
+    padding:11.75% 20% 11% 15%;
+    border-radius:5% 0 0 5%;
+    width:auto;
+    height:100%;
+    margin:auto;
+}
+
+
+
+
