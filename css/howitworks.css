@@ -10,6 +10,7 @@ nav a{
     color: black;
     font-family: sans-serif;
     font-size: 16px;
+    white-space: nowrap;
 }
 
 #login-button{
@@ -22,6 +23,10 @@ nav a{
     padding: 2px 13px;
 }
 
+#login-button:hover{
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
 #signup-button{
     color: white;
     font-family: sans-serif;
@@ -30,6 +35,10 @@ nav a{
     border-radius: 7px;
     background-color: #0b54ff;
     padding: 2px 13px;
+}
+
+#signup-button:hover{
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
 
 #header-h1{
@@ -60,6 +69,10 @@ nav a{
     padding: 10px 13px;
 }
 
+#signup-button-2:hover{
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
 #chat-button{
     color: #0b54ff;
     font-family: sans-serif;
@@ -69,6 +82,10 @@ nav a{
     border-radius: 10px;
     background-color: white;
     padding: 10px 13px;
+}
+
+#chat-button:hover{
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
 
 #sign-in-button{
@@ -135,5 +152,8 @@ header img {
     color: white;
 }
 
-
-
+.short-hr {
+    width: 60%;
+    text-align: center;
+    margin: auto;
+  }
