@@ -101,6 +101,11 @@ header img {
     margin: 10px;
 }
 
+.spacing{
+    margin: 3% 20% 3% 20%;
+    color: white;
+}
+
 .short-hr {
     width: 60%;
     text-align: center;
