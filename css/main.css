@@ -1,0 +1,113 @@
+
+nav img {
+    width:auto;
+    height:auto;
+    margin:auto;
+}
+
+nav a{
+    text-decoration: none;
+    color: black;
+    font-family: sans-serif;
+    font-size: 16px;
+    white-space: nowrap;
+}
+
+#login-button{
+    color: blue;
+    font-family: sans-serif;
+    font-size: 20px;
+    border: 2px solid blue;
+    border-radius: 7px;
+    background-color: white;
+    padding: 2px 13px;
+}
+
+#login-button:hover{
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+#signup-button{
+    color: white;
+    font-family: sans-serif;
+    font-size: 20px;
+    border: 2px solid blue;
+    border-radius: 7px;
+    background-color: blue;
+    padding: 2px 13px;
+}
+
+#signup-button:hover{
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+#header-h1{
+    font-family: sans-serif;
+    font-size: 60px;
+}
+
+#header-h2{
+    font-family: sans-serif;
+    font-size: 35px;
+}
+
+.header-p{
+    font-family: sans-serif;
+    font-size: 22px;
+    font-weight: bold;
+    color: grey;
+}
+
+#signup-button-2{
+    color: white;
+    font-family: sans-serif;
+    font-size: 23px;
+    font-weight: bold;
+    border: 2px solid blue;
+    border-radius: 10px;
+    background-color: blue;
+    padding: 10px 13px;
+}
+
+#chat-button{
+    color: blue;
+    font-family: sans-serif;
+    font-size: 23px;
+    font-weight: bold;
+    border: 2px solid blue;
+    border-radius: 10px;
+    background-color: white;
+    padding: 10px 13px;
+}
+
+#sign-in-button{
+    text-decoration: none;
+    color: grey;
+}
+
+
+header img {
+    width:100%;
+    height:auto;
+    margin:auto;
+}
+
+.bullet-pt {
+    color:#0850F8;
+    border:2px solid #0850F8;
+    background-color:#0850f8;
+    border-radius:100%;
+    font-size:3px;
+    margin: 10px;
+}
+
+.spacing{
+    margin: 3% 20% 3% 20%;
+    color: white;
+}
+
+.short-hr {
+    width: 60%;
+    text-align: center;
+    margin: auto;
+  }
